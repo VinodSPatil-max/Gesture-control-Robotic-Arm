@@ -84,7 +84,7 @@ run the code.
 python main.py
 ```
 
-# INNITIAL POSITION ,CODE
+# INITIAL POSITION ,CODE
 
 #include <Servo.h>
 
