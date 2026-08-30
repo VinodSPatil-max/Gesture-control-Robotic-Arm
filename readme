@@ -1,0 +1,60 @@
+# Gesture-Controlled Robotic Arm 🤖✋
+
+A real-time **gesture-controlled robotic arm** that allows users to control the movement of a robotic arm using hand gestures. The system uses **MediaPipe** for hand tracking and gesture recognition, and an **HC-05 Bluetooth module** for wireless communication between the computer and the robotic arm.
+
+## 🚀 Project Overview
+
+This project combines **Computer Vision, Hand Gesture Recognition, Bluetooth Communication, and Robotics** to create a natural and intuitive way of controlling a robotic arm.
+
+Instead of using buttons, joysticks, or wired controllers, the user can simply move their hand and perform predefined gestures. MediaPipe detects the hand and tracks its landmarks in real time. The recognized gestures are converted into control commands and transmitted wirelessly through the HC-05 Bluetooth module to operate the robotic arm.
+
+## 🔧 Technologies Used
+
+* **Python**
+* **MediaPipe** – Hand tracking and gesture recognition
+* **OpenCV** – Real-time camera/video processing
+* **HC-05 Bluetooth Module** – Wireless communication
+* **Arduino** – Robotic arm control
+* **Servo Motors** – Arm movement
+* **Computer/Webcam** – Captures hand gestures
+
+## ⚙️ How It Works
+
+1. A webcam captures the user's hand movements.
+2. **MediaPipe** detects and tracks hand landmarks.
+3. The program identifies the predefined hand gesture.
+4. Each gesture is mapped to a specific robotic-arm command.
+5. The command is sent through **Bluetooth** using the HC-05 module.
+6. The Arduino receives the command.
+7. Servo motors move the robotic arm according to the received command.
+
+## ✨ Features
+
+* Real-time hand gesture detection
+* Wireless robotic arm control
+* Contactless operation
+* MediaPipe-based hand tracking
+* Bluetooth communication using HC-05
+* Servo motor-based robotic arm movement
+* Simple and intuitive control system
+
+## 🎯 Applications
+
+This type of system can be useful for:
+
+* Robotics projects
+* Human-machine interaction
+* Educational demonstrations
+* Industrial automation concepts
+* Assistive robotic systems
+* Computer vision and AI-based robotics
+
+## 📌 Project Status
+
+**✅ Successfully completed and tested**
+
+The robotic arm can be controlled wirelessly using recognized hand gestures.
+
+## 👨‍💻 Project
+
+This project was developed as a hands-on implementation combining **computer vision, artificial intelligence, embedded systems, Bluetooth communication, and robotics**.
