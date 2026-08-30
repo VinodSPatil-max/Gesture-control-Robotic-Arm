@@ -41,5 +41,11 @@ void loop()
 
     if (millis() - t > 1000)
     {
-        for (size_t i = 0; i < 4; i++)
+      for (size_t i = 0; i < 4; i++)
         {
+            servo[i].write(default_angle[i]);
+            pre_angle[i] = default_angle[i];
+        }
+    }
+}
+
